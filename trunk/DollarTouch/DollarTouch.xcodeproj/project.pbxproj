@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4615B8FF108AE8A900C1F9D6 /* DTRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4615B8FB108AE8A900C1F9D6 /* DTRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4615B900108AE8A900C1F9D6 /* DTRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4615B8FC108AE8A900C1F9D6 /* DTRecognizer.m */; };
+		4615B901108AE8A900C1F9D6 /* DTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4615B8FD108AE8A900C1F9D6 /* DTHelpers.m */; };
+		4615B902108AE8A900C1F9D6 /* DTHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4615B8FE108AE8A900C1F9D6 /* DTHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4615B907108AE8C700C1F9D6 /* DTTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4615B903108AE8C600C1F9D6 /* DTTemplate.m */; };
+		4615B908108AE8C700C1F9D6 /* DTResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4615B904108AE8C600C1F9D6 /* DTResult.m */; };
+		4615B909108AE8C700C1F9D6 /* DTResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4615B905108AE8C700C1F9D6 /* DTResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4615B90A108AE8C700C1F9D6 /* DTTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4615B906108AE8C700C1F9D6 /* DTTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA747D9F0F9514B9006C5449 /* DollarTouch_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* DollarTouch_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4615B8FB108AE8A900C1F9D6 /* DTRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTRecognizer.h; sourceTree = "<group>"; };
+		4615B8FC108AE8A900C1F9D6 /* DTRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTRecognizer.m; sourceTree = "<group>"; };
+		4615B8FD108AE8A900C1F9D6 /* DTHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTHelpers.m; sourceTree = "<group>"; };
+		4615B8FE108AE8A900C1F9D6 /* DTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTHelpers.h; sourceTree = "<group>"; };
+		4615B903108AE8C600C1F9D6 /* DTTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTemplate.m; sourceTree = "<group>"; };
+		4615B904108AE8C600C1F9D6 /* DTResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTResult.m; sourceTree = "<group>"; };
+		4615B905108AE8C700C1F9D6 /* DTResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTResult.h; sourceTree = "<group>"; };
+		4615B906108AE8C700C1F9D6 /* DTTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTemplate.h; sourceTree = "<group>"; };
+		4615B957108AF0AB00C1F9D6 /* dollar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dollar.pdf; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* DollarTouch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DollarTouch_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libDollarTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDollarTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libDollarTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* DollarTouch */ = {
+			isa = PBXGroup;
+			children = (
+				4615B957108AF0AB00C1F9D6 /* dollar.pdf */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = DollarTouch;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4615B8FB108AE8A900C1F9D6 /* DTRecognizer.h */,
+				4615B8FC108AE8A900C1F9D6 /* DTRecognizer.m */,
+				4615B906108AE8C700C1F9D6 /* DTTemplate.h */,
+				4615B903108AE8C600C1F9D6 /* DTTemplate.m */,
+				4615B905108AE8C700C1F9D6 /* DTResult.h */,
+				4615B904108AE8C600C1F9D6 /* DTResult.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* DollarTouch_Prefix.pch */,
+				4615B8FE108AE8A900C1F9D6 /* DTHelpers.h */,
+				4615B8FD108AE8A900C1F9D6 /* DTHelpers.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* DollarTouch_Prefix.pch in Headers */,
+				4615B8FF108AE8A900C1F9D6 /* DTRecognizer.h in Headers */,
+				4615B902108AE8A900C1F9D6 /* DTHelpers.h in Headers */,
+				4615B909108AE8C700C1F9D6 /* DTResult.h in Headers */,
+				4615B90A108AE8C700C1F9D6 /* DTTemplate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* DollarTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "DollarTouch" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DollarTouch;
+			productName = DollarTouch;
+			productReference = D2AAC07E0554694100DB518D /* libDollarTouch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "DollarTouch" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* DollarTouch */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* DollarTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615B900108AE8A900C1F9D6 /* DTRecognizer.m in Sources */,
+				4615B901108AE8A900C1F9D6 /* DTHelpers.m in Sources */,
+				4615B907108AE8C700C1F9D6 /* DTTemplate.m in Sources */,
+				4615B908108AE8C700C1F9D6 /* DTResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/DollarTouch.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DollarTouch_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = DollarTouch;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/DollarTouch.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DollarTouch_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = DollarTouch;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "DollarTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "DollarTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
