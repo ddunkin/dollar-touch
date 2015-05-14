@@ -1,0 +1,1 @@
+An Objective-C implementation of the [$1 Unistroke Recognizer](http://depts.washington.edu/aimgroup/proj/dollar/) that is compatible with the iPhone OS.
